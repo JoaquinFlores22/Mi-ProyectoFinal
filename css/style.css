@@ -207,45 +207,47 @@ div.redes {
     color: white;
 }
 /* css de contacto */
-.form-control{
+#exampleFormControlInput1{
     display: block;
     width: 400px;
-    height: 20px;
+    height: 50px;
 }
-#floatingTextarea{
+#exampleFormControlInput2{
+    display: block;
+    width: 400px;
+    height: 50px;
+}
+ 
+#textArea{
     border-radius: 10px;
-    height: 100px;
-    width: 500px;
+    height: 200px;
+    width: 400px;
 }
 
-#emailHelp{
-    color:white;
+#row{
+    justify-content: space-evenly;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.maps{
+    margin-left: 10rem;
+    border: solid 5px black;
 }
 
-#form1{
-    padding: 10px;
-    width:550px ; 
-}
-
-#form2{
-    color: black;
-    margin: 1rem;
-    height: 30px;
-}
 
 .contacto{
     display: flex;
     justify-content: space-evenly;
 }
+
 .h1{
     font-size:2.5rem;
     border-bottom:solid 5px black ;
     display: flex;
-    
+
 }
-.boton{
-    margin-top: 3.5rem;
-}
+
 
 /* css de mi trabajo */
 .headerMitrabajo{
