@@ -285,31 +285,3 @@ div.redes {
 }
 
 /* MEDIA */
-@media (min-height:480px) {
-    .grilla {
-        display: grid;
-        grid-template-columns: 0.9fr 1.1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-            "nav nav nav nav"
-            "header header header header"
-            "header header header header"
-            "header header header header"
-            "footer footer footer footer";
-    }
- 
-    .nav{
-        display: inline-block;
-
-    }
-    .link {
-        grid-area: nav;
-        display: inline-block;
-    }
-    .menu{
-        display: inline-block;
-    }
-    .listado1{
-        display: inline-block;
-    }
-}
