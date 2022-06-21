@@ -65,54 +65,8 @@
 
 
 
-/* css del inicio */
-.queEsJazstina {
-    display: inline-block;
-    border: 5px;
-    border-radius: 40px;
-    padding: 10px;
-    margin: 10px;
-    background-color: #011640;
-    color: white;
-}
-
-.seccion1 {
-    display: flex;
-
-}
 
 
-.queEsJazstina:hover {
-    background-color: white;
-    transition: 1.0s;
-    color: black;
-}
-
-.parrafo1 {
-    margin: 5px;
-    padding: 5px;
-    border: 5px solid black;
-    border-radius: 30px;
-    background-color: #011640;
-    color: white;
-    width: 600px;
-    height: 200px;
-}
-
-.parrafo1:hover {
-    transition: 4s;
-    color: black;
-    background-color: white;
-
-}
-
-.video {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 30px;
-    width: 560px;
-    height: 355px;
-}
 
 /* css del footer */
 
@@ -193,7 +147,7 @@ div.redes {
     text-align: right;
 }
 
-
+/* css del index */
 
 .barra {
     display: flex;
@@ -291,4 +245,71 @@ div.redes {
 }
 .boton{
     margin-top: 3.5rem;
+}
+
+/* css de mi trabajo */
+.headerMitrabajo{
+    display: flex;
+    flex-direction: row;
+    grid-area: header;
+    background-color: #1e7cb5;
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    border: solid 3px black;
+    max-width: 700px;
+    max-height: 469px;
+}
+
+.video{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 30px;
+    width: 560px;
+    height: 355px;
+}
+#accordionExample{
+    width: 500px;
+}
+/* css de biografia */
+.biografia{
+    font-size:2.5rem;
+    border-bottom:solid 5px black ;
+    display: flex;
+    color: white;
+}
+#acordionBio{
+  width: 300px;  
+}
+
+/* MEDIA */
+@media (min-height:480px) {
+    .grilla {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "nav nav nav nav"
+            "header header header header"
+            "header header header header"
+            "header header header header"
+            "footer footer footer footer";
+    }
+ 
+    .nav{
+        display: inline-block;
+
+    }
+    .link {
+        grid-area: nav;
+        display: inline-block;
+    }
+    .menu{
+        display: inline-block;
+    }
+    .listado1{
+        display: inline-block;
+    }
 }
