@@ -1,0 +1,64 @@
+#indes {
+    main {
+        .barra {
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            border: 1px solid black;
+            justify-content: space-evenly;
+
+        }
+
+        .menu2 {
+
+            text-decoration: none;
+            border-radius: 15px;
+            margin: 5px;
+            padding: 1rem;
+            color: black;
+
+
+            &hover {
+                background-color: black;
+                transition: 0.3s;
+                color: white;
+            }
+        }
+
+        .listado1 {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: row;
+            margin-top: 2rem;
+            justify-content: space-between
+        }
+
+        .jordan {
+            border: 1px solid white;
+            max-width: 250px;
+        }
+
+        .precio {
+            border: solid 1px black;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .valor {
+
+            display: flex;
+            margin: 10px;
+            display: flex;
+            justify-content: space-between;
+
+
+            &hover {
+                background-color: black;
+                transition: 0.3s;
+                color: white;
+            }
+        }
+    }
+}

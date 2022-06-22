@@ -1,0 +1,13 @@
+#biografia{
+    main{
+        .biografia{
+            font-size:2.5rem;
+            border-bottom:solid 5px black ;
+            display: flex;
+            color: white;
+        }
+        #acordionBio{
+          width: 300px;  
+        }
+    }
+}
