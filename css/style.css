@@ -504,3 +504,9 @@ div.redes {
 
 }
 
+
+@media (max-width:1239px) {
+    .jordan {
+        max-width: 200px;
+    }
+}
