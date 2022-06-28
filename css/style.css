@@ -33,6 +33,7 @@
 }
 
 .link i {
+
     color: white;
 }
 
@@ -126,6 +127,7 @@ div.redes {
     flex-direction: row;
     margin-top: 0.5em;
 }
+
 
 .redes i {
     color: #bac6d9;
@@ -280,16 +282,10 @@ div.redes {
     margin: 1rem;
     border: solid 3px black;
     max-width: 700px;
-    max-height: 469px;
+    max-height: 435px;
 }
 
-.video {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 30px;
-    width: 560px;
-    height: 355px;
-}
+
 
 #accordionExample {
     width: 500px;
