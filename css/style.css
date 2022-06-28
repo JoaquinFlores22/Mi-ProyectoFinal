@@ -322,15 +322,22 @@ div.redes {
     }
 
     div .nav {
-        display: inline-block;
-        height: 500px;
+        display: flex;
+        flex-direction: column;
+        height: 95vh;
     }
 
-    a .menu {
-        margin-top: 15px;
+    div .footer {
+        display: inline-block;
+        height: 60vh;
+    }
+
+    li {
+        margin: 1rem;
     }
 
     .barra {
+        height: 80vh;
         display: flex;
         flex-direction: column;
 
@@ -344,18 +351,10 @@ div.redes {
         display: inline-block;
     }
 
-    .link {
-        display: inline-block;
-    }
 
     .precio {
         display: flex;
         flex-direction: column;
-    }
-
-    .footer {
-        display: inline-block;
-        height: 500px;
     }
 
     .column.subscribe {
