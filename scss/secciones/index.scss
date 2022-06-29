@@ -1,0 +1,39 @@
+#index {
+    main {
+        .fa-solid {
+            margin-left: 5px;
+        }
+
+        #caja-talles {
+            margin-top: 50px;
+            width: 100px;
+            height: 40px;
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 30px;
+
+
+            &:hover {
+
+                background-color: black;
+                color: white;
+                transition: 0.3s;
+            }
+        }
+
+        .valor {
+            border-radius: 15px;
+            border: none;
+            background-color: white;
+            color: black;
+
+
+            &:hover {
+                background-color: black;
+                transition: 0.3s;
+                color: white;
+            }
+        }
+    }
+}
