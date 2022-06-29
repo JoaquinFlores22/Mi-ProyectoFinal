@@ -1,11 +1,53 @@
-#contacto {
-    main {
+#contactp {
+    
         #row {
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
             margin: 5px;
         }
-    }
 
+        #exampleFormControlInput1 {
+            display: block;
+            width: 400px;
+            height: 50px;
+        }
+
+        #exampleFormControlInput2 {
+            display: block;
+            width: 400px;
+            height: 50px;
+        }
+
+        #textArea {
+            border-radius: 10px;
+            height: 200px;
+            width: 400px;
+        }
+
+        #row {
+            justify-content: space-evenly;
+            margin: 5px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .maps {
+            margin-left: 10rem;
+            border: solid 5px black;
+        }
+
+
+        .contacto {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .h1 {
+            font-size: 2.5rem;
+            border-bottom: solid 5px black;
+            display: flex;
+
+    
+    }
 }
