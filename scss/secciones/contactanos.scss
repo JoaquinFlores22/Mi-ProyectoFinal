@@ -1,5 +1,6 @@
-#contactp {
-    
+#contactoo {
+    main {
+
         #row {
             display: flex;
             flex-direction: row;
@@ -25,18 +26,11 @@
             width: 400px;
         }
 
-        #row {
-            justify-content: space-evenly;
-            margin: 5px;
-            display: flex;
-            flex-direction: row;
-        }
 
         .maps {
             margin-left: 10rem;
             border: solid 5px black;
         }
-
 
         .contacto {
             display: flex;
@@ -47,7 +41,9 @@
             font-size: 2.5rem;
             border-bottom: solid 5px black;
             display: flex;
+            color: white;
+        }
 
-    
     }
+
 }

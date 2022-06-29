@@ -1,0 +1,221 @@
+/* MEDIA */
+@media (max-width:320px) {
+    .grilla {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "nav nav nav nav"
+            "header header header header"
+            "header header header header"
+            "header header header header"
+            "footer footer footer footer";
+    }
+
+    div .nav {
+        display: flex;
+        flex-direction: column;
+        height: 95vh;
+    }
+
+    div .footer {
+        display: inline-block;
+        height: 60vh;
+    }
+
+    li {
+        margin: 1rem;
+    }
+
+    .barra {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .jordan {
+        width: 200px;
+    }
+
+    .listado1 {
+        display: inline-block;
+    }
+
+
+    .precio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column.subscribe {
+        display: none;
+    }
+
+    .column.links {
+        display: none;
+    }
+}
+
+@media (max-width:380px) {
+    .grilla {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "nav nav nav nav"
+            "header header header header"
+            "header header header header"
+            "header header header header"
+            "footer footer footer footer";
+    }
+
+    div .nav {
+        display: inline-block;
+    }
+
+    .barra {
+        display: flex;
+        flex-direction: column;
+        margin-top: -238px;
+    }
+
+    .listado1 {
+        display: inline-block;
+    }
+
+    .link {
+        display: inline-block;
+    }
+
+    .precio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listado1 {
+        display: inline-block;
+    }
+
+    .footer {
+        display: inline-block;
+        height: 500px;
+    }
+
+    .column.subscribe {
+        display: none;
+    }
+
+    .column.links {
+        display: none;
+    }
+}
+
+@media (max-width:430px) {
+    .grilla {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "nav nav nav nav"
+            "header header header header"
+            "header header header header"
+            "header header header header"
+            "footer footer footer footer";
+    }
+
+    div .nav {
+        display: inline-block;
+    }
+
+    .barra {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jordan {
+        width: 200px;
+    }
+
+    .listado1 {
+        display: inline-block;
+    }
+
+    .link {
+        display: inline-block;
+    }
+
+    .precio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listado1 {
+        display: inline-block;
+    }
+
+    .footer {
+        display: inline-block;
+
+    }
+
+    .column.subscribe {
+        display: none;
+    }
+
+    .column.links {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    .grilla {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "nav nav nav nav"
+            "header header header header"
+            "header header header header"
+            "header header header header"
+            "footer footer footer footer";
+    }
+
+    .listado1 {
+        display: inline-bloc;
+    }
+
+
+
+    .column.subscribe {
+        display: none;
+    }
+}
+
+
+@media(max-width:1024px) {
+    .grilla {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "nav nav nav nav"
+            "header header header header"
+            "header header header header"
+            "header header header header"
+            "footer footer footer footer";
+    }
+
+    .jordan {
+        width: 200px;
+    }
+
+
+}
+
+
+@media (max-width:1280px) {
+    .jordan {
+        max-width: 200px;
+    }
+}

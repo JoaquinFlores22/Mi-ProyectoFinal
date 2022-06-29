@@ -2,39 +2,49 @@
   padding: 0;
   margin: 0; }
 
-#contacto main #exampleFormControlInput1 {
+#biografia main .biografia {
+  font-size: 2.5rem;
+  border-bottom: solid 5px black;
+  display: flex;
+  color: white; }
+
+#biografia main #accordionBio {
+  width: 150px; }
+
+#contactoo main #row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5px; }
+
+#contactoo main #exampleFormControlInput1 {
   display: block;
   width: 400px;
   height: 50px; }
 
-#contacto main #exampleFormControlInput2 {
+#contactoo main #exampleFormControlInput2 {
   display: block;
   width: 400px;
   height: 50px; }
 
-#contacto main #textArea {
+#contactoo main #textArea {
   border-radius: 10px;
   height: 200px;
   width: 400px; }
 
-#contacto main #row {
-  justify-content: space-evenly;
-  margin: 5px;
-  display: flex;
-  flex-direction: row; }
-
-#contacto main .maps {
+#contactoo main .maps {
   margin-left: 10rem;
   border: solid 5px black; }
 
-#contacto main .contacto {
+#contactoo main .contacto {
   display: flex;
   justify-content: space-evenly; }
 
-#contacto main .h1 {
+#contactoo main .h1 {
   font-size: 2.5rem;
   border-bottom: solid 5px black;
-  display: flex; }
+  display: flex;
+  color: white; }
 
 #index main .fa-solid {
   margin-left: 5px; }
@@ -61,120 +71,88 @@
     background-color: black;
     transition: 0.3s;
     color: white; }
-
-#miTrabajo main .imagenes {
-  display: flex;
-  flex-direction: row;
-  margin: 1rem;
-  border: solid 3px black;
-  max-width: 700px;
-  max-height: 435px; }
-
-#miTrabajo main #accordionExample {
-  width: 500px; }
-
-#biografia main .biografia {
-  font-size: 2.5rem;
-  border-bottom: solid 5px black;
-  display: flex;
-  color: white; }
-
-#biografia main #acordionBio {
-  width: 300px; }
-
-.barra {
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-  border: 1px solid black;
-  justify-content: space-evenly; }
-
-#caja-talles {
-  margin-top: 50px;
-  width: 100px;
-  height: 40px;
-  background-color: white;
-  color: black;
-  border: none;
-  border-radius: 30px; }
-
-.menu2 {
-  text-decoration: none;
-  border-radius: 15px;
-  margin: 5px;
-  padding: 1rem;
-  color: black; }
-  .menu2:hover {
-    background-color: black;
-    transition: 0.3s;
-    color: white; }
-  .menu2:hover {
-    background-color: black;
-    color: white;
-    transition: 0.3s; }
-
-.listado1 {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: row;
-  margin-top: 2rem;
-  justify-content: space-between; }
-
-.jordan {
-  border: 1px solid white;
-  max-width: 250px; }
-
-.valor {
-  border-radius: 15px;
-  border: none;
-  background-color: white;
-  color: black; }
-  .valor:hover {
-    background-color: black;
-    transition: 0.3s;
-    color: white; }
-
-.precio {
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; }
-
-.nav {
-  grid-area: nav;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background: linear-gradient(0deg, #1e7cb5 33%, #0a1c26 100%); }
-
-.link {
-  display: flex;
-  justify-content: flex-start;
-  list-style: none;
-  margin-top: 2rem; }
-  .link i {
-    color: white; }
-
-.menu {
-  text-decoration: none;
-  border-radius: 15px;
-  margin: 5px;
-  padding: 1rem;
-  color: white; }
-  .menu:hover {
+  #index main .valor .barra {
+    display: flex;
+    flex-direction: row;
     background-color: white;
-    transition: 0.3s;
+    border: 1px solid black;
+    justify-content: space-evenly; }
+  #index main .valor #caja-talles {
+    margin-top: 50px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30px; }
+  #index main .valor .menu2 {
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 1rem;
     color: black; }
-
-.img {
-  border: solid 1px black;
-  max-width: 200px;
-  margin: 10px;
-  border-radius: 100px; }
-
-.header {
-  grid-area: header;
-  background-color: #1e7cb5; }
+    #index main .valor .menu2:hover {
+      background-color: black;
+      transition: 0.3s;
+      color: white; }
+    #index main .valor .menu2:hover {
+      background-color: black;
+      color: white;
+      transition: 0.3s; }
+  #index main .valor .listado1 {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-between; }
+  #index main .valor .jordan {
+    border: 1px solid white;
+    max-width: 250px; }
+  #index main .valor .valor {
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    color: black; }
+    #index main .valor .valor:hover {
+      background-color: black;
+      transition: 0.3s;
+      color: white; }
+  #index main .valor .precio {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  #index main .valor .nav {
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(0deg, #1e7cb5 33%, #0a1c26 100%); }
+  #index main .valor .link {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin-top: 2rem; }
+    #index main .valor .link i {
+      color: white; }
+  #index main .valor .menu {
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 1rem;
+    color: white; }
+    #index main .valor .menu:hover {
+      background-color: white;
+      transition: 0.3s;
+      color: black; }
+  #index main .valor .img {
+    border: solid 1px black;
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 100px; }
+  #index main .valor .header {
+    grid-area: header;
+    background-color: #1e7cb5; }
 
 .footer {
   display: flex;
@@ -250,6 +228,9 @@ div.redes {
   border: solid 3px black;
   max-width: 700px;
   max-height: 435px; }
+
+#accordionExample {
+  width: 500px; }
 
 /* MEDIA */
 @media (max-width: 320px) {
